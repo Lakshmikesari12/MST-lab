@@ -1,0 +1,19 @@
+class Product:
+    def __init__(self):
+        self.productId = None
+
+    def set_product_id(self, product_id):
+        self.productId = product_id
+
+    def get_product_id(self):
+        return self.productId
+
+
+# Create an instance of the Product class
+product = Product()
+
+# Set the product ID using the set_product_id() method
+product.set_product_id(12345)
+
+# Get the product ID using the get_product_id() method
+print(product.get_product_id())  # Output: 12345
